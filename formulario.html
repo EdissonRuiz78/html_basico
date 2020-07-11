@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Formularios y atributos</title>
+    </head>
+    <body>
+        <form autocomplete="on" name="Primer formulario">
+            <fieldset>
+                <legend>Titulo de formulario</legend>
+                <label for="Nombre">Nombre</label>
+                <input type="text">
+                <p>Campo de texto deshabilitado<br/>
+                    <input type="text" disabled value="Texto">
+                </p>
+                <label>Campo de texto deshabilitado</label><br/>
+                    <input type="text" disabled value="Texto"><br/>
+                <br/><label>Seleccion de color</label><br/>
+                    <input type="color"><br/>
+                <br/><label>Seleccion de fecha</label><br/>
+                    <input type="date"><br/>
+                <br/><label>Seleccion de fecha</label><br/>
+                    <input type="datetime"><br/>
+                <br/><label>Seleccion de fecha-hora local</label><br/>
+                    <input type="datetime-local"><br/>
+                <br/><label>Seleccion de archivo</label><br/>
+                    <input type="file"><br/>
+                <br/><label>Email</label><br/>
+                    <input type="email"><br/>
+                <br/><label>Mes</label><br/>
+                    <input type="month"><br/>
+                <br/><label>Rango de numeros</label><br/>
+                    <input type="range" min="0" max="10"><br/>
+                <br/><label>Enviar datos</label><br/>
+                    <input type="submit"><br/>
+                 <br/><label>Numeros</label><br/>
+                    <input type="number" min="0" max="100"><br/>
+                <br/><label>Correo electronico</label><br/>
+                    <input type="text" placeholder="xxxx@hotmail.com"><br/>
+                <br/><legend>Seleccione la ciudad</legend>
+                    <select>
+                        <option>Bogota</option>
+                        <option>Medellin</option>
+                        <option>Cali</option>
+                        <option>Cartagena</option>
+                        <option>Pereira</option>
+                    </select>
+            </fieldset>
+        </form>
+    </body>
+</html>
